@@ -39,7 +39,7 @@ def constfuel():
 TL;DR az alján
 
 Na ez érdemel egy kis magyarázatot:
-Azt a végtelen sort, hogy szumma ((((x/3)-2)/3-2)/3-2)/3-2....
+Azt a sort, hogy szumma ((((x/3)-2)/3-2)/3-2)/3-2....
 fel lehet írni úgy is, hogy szumma x/(3^n) - 2/(3^n-1) - 2/(3^n-2) - ... - 2/3 - 2
 Ahol az összes 2/(3^n-k) tag elhanyagolható (asszem), hiszen 2/(3^n) n>0 kisebb, mint 1, amit elhanyagolunk 
 Ezért az egész úgy néz ki, hogy x/(3^n) - 2
@@ -50,7 +50,7 @@ De ez nekünk még nem elég, mert ez túl sok (azért is, mert mi nem a végtel
 A Wolfram alpha szerint szumma(x/(3^n)-2) ahol n=0->log3(x) = 1.5*(3x*5)-2*log3(x)
 https://www.wolframalpha.com/input/?i=sum&assumption=%7B%22F%22%2C+%22Sum%22%2C+%22sumlowerlimit%22%7D+-%3E%220%22&assumption=%7B%22C%22%2C+%22sum%22%7D+-%3E+%7B%22Calculator%22%7D&assumption=%7B%22F%22%2C+%22Sum%22%2C+%22sumfunction%22%7D+-%3E%22x%2F%283%5Ek%29-2%22&assumption=%7B%22F%22%2C+%22Sum%22%2C+%22sumvariable%22%7D+-%3E%22k%22&assumption=%7B%22F%22%2C+%22Sum%22%2C+%22sumupperlimit2%22%7D+-%3E%22log3%28x%29%22
 Nem ellenőriztem le, mert lusta voltam.
-Minden esetre ez a lefelé kerekítések miatt minden elemre +p üzemanyagot ad ki, ahol 0 < p < log3(x), bár heurisztikusan és ködös matektudásra alapozva ez log3(x)/2 < p < log3(x)
+Minden esetre ez a lefelé kerekítések miatt minden elemre +p üzemanyagot ad ki, ahol 0 < p < log3(x), bár heurisztikusan és ködös matektudásra alapozva ez inkább log3(x)/2 < p < log3(x)
 (Ha minden igaz, akkor a lefelé kerekítésekben elveszett egészek száma soha nem lehet kisebb, mint log3(x)/2, mert something something hárommal való osztás tulajdonságai.
 Nem voltam hajlandó mélyen belemenni, mert van egy olyan érzésem, hogy ennek valahogy a Collatz-sejtéshez van köze, és ha a világ vezető matematikusai ~73 éve nem tudták megoldani, akkor nekem esélyem sincs.
 Bár az is lehet, hogy semmi köze ehhez, és nálam csak beütött az autizmus.)
