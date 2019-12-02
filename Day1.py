@@ -56,7 +56,7 @@ Nem voltam hajlandó mélyen belemenni, mert van egy olyan érzésem, hogy ennek
 Bár az is lehet, hogy semmi köze ehhez, és nálam csak beütött az autizmus.)
 
 Minden esetre azt nem tudom, hogy konstans időben meg lehet-e határozni, hogy hány olyan osztás van a sorban, ahol a lefelé kerekítés miatt elveszik egy egész.
-És itt jön be a Mátyusállandó: Ha heurisztikus alapon minden erdményből kivonok log3(x)-et, akkor az eredmény
+És itt jön be a Mátyus-állandó: Ha heurisztikus alapon minden erdményből kivonok log3(x)-et, akkor az eredmény
 4925580
 Ami a várt
 4925608
