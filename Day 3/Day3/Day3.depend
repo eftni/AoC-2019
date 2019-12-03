@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1575413711 source:c:\users\niko\desktop\aoc-2019\day 3\day3\main.cpp
+	<iostream>
+	<cmath>
+	<map>
+	<set>
+	<algorithm>
+	<sstream>
+	<iterator>
+	<fstream>
+
